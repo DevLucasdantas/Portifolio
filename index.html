@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="icon" type="image/x-icon" href="/images/favicon-32x32-removebg-preview.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="navbar">
+        <nav>
+            <h1>Lucas Dantas |</h1>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#tecnologias">Tecnologias</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contatos</a></li>
+            </ul>
+            <button id="theme-switch" aria-label="Alternar tema">
+                <!-- Ícone Sol (light) -->
+                <svg id="icon-sun" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" fill="none" stroke="#111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+                <!-- Ícone Lua (dark) -->
+                <svg id="icon-moon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:none"><path d="M21 12.79A9 9 0 1 1 11.21 3a7 7 0 0 0 9.79 9.79z"/></svg>
+            </button>
+        </nav>
+    </div>
+
+    <main>
+        <section id="sobre" class="sobre-hero">
+            <div class="sobre-hero-foto">
+                <img src="images/1712665353346.jpeg" alt="Lucas Dantas" class="profile-image">
+            </div>
+            <div class="sobre-hero-info">
+                <p class="sobre-hero-hello">Olá, eu sou</p>
+                <h1 class="sobre-hero-nome">Lucas Dantas</h1>
+                <h2 class="sobre-hero-cargo">Desenvolvedor FullStack</h2>
+                <div class="sobre-hero-botoes">
+                    <a href="images/Curriculo.pdf" class="botao-outline" download>Baixar CV</a>
+                    <a href="#contato" class="botao-preto">Contato</a>
+                </div>
+                <div class="sobre-hero-sociais">
+                    <a href="https://www.linkedin.com/in/lucas-barbosa-dantas-918bb1227/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/DevLucasdantas" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <section id="tecnologias">
+            <h2>Minhas Tecnologias</h2>
+            <div class="tecnologias-grid">
+                <div class="tecnologia-card"><img src="images/html-5.png" alt="HTML5"><span>HTML</span></div>
+                <div class="tecnologia-card"><img src="images/css-3.png" alt="CSS3"><span>CSS</span></div>
+                <div class="tecnologia-card"><img src="images/js.png" alt="JavaScript"><span>JavaScript</span></div>
+                <div class="tecnologia-card"><img src="images/programing.png" alt="Node.js"><span>Node.js</span></div>
+                <div class="tecnologia-card"><img src="images/figma.png" alt="Figma"><span>Figma</span></div>
+                <div class="tecnologia-card"><img src="images/database.png" alt="SQL"><span>SQL</span></div>
+                <div class="tecnologia-card"><img src="images/bootstrap.png" alt="Bootstrap"><span>Bootstrap</span></div>
+                <div class="tecnologia-card"><img src="images/atom.png" alt="React"><span>React</span></div>
+            </div>
+        </section>
+
+        <section id="projetos">
+            <h2>Projetos</h2>
+            <div class="projetos-lista">
+                <!-- Projeto 1 -->
+                <div class="projeto-card">
+                    <div class="projeto-thumb">
+                        <img src="images/image.png" alt="ReciclaJa-360">
+                    </div>
+                    <div class="projeto-info">
+                        <div>
+                            <div class="projeto-titulo">Site de Reciclagem</div>
+                            <div class="projeto-descricao">
+                                Projeto ReciclaJá-360, um site de reciclagem desenvolvido com React e Tailwind CSS. O site é responsivo e possui uma interface amigável, permitindo que os usuários encontrem informações sobre reciclagem de forma fácil e rápida.
+                            </div>
+                            <div class="projeto-tecnologias">
+                                <strong>Tecnologias usadas:</strong>
+                                <span>React</span> | <span>Tailwind</span> | <span>JavaScript</span> | <span>CSS3</span>
+                            </div>
+                        </div>
+                        <a class="projeto-botao" href="https://devlucasdantas.github.io/ReciclaJ-360/" target="_blank" rel="noopener noreferrer">Ver ReciclaJa-360</a>
+                    </div>
+                </div>
+                <!-- Projeto 2 -->
+                <div class="projeto-card">
+                    <div class="projeto-thumb">
+                        <img src="./images/download (1).png" alt="Calculadora Apple">
+                    </div>
+                    <div class="projeto-info">
+                        <div>
+                            <div class="projeto-titulo">Calculadora-simples</div>
+                            <div class="projeto-descricao">
+                                Calculadora simples desenvolvida com HTML, CSS e JavaScript. Permite realizar operações básicas como adição, subtração, multiplicação e divisão, com uma interface amigável e responsiva.
+                            </div>
+                            <div class="projeto-tecnologias">
+                                <strong>Tecnologias usadas:</strong>
+                                <span>HTML</span> | <span>CSS</span> | <span>JavaScript</span>
+                            </div>
+                        </div>
+                        <a class="projeto-botao" href="https://devlucasdantas.github.io/Calculadora-Apple/" target="_blank" rel="noopener noreferrer">Ver Calculadora Apple</a>
+                    </div>
+                </div>
+                <!-- Projeto 3 -->
+                <div class="projeto-card">
+                    <div class="projeto-thumb">
+                        <img src="images/feedback.jpg" alt="FeedBack_Express">
+                    </div>
+                    <div class="projeto-info">
+                        <div>
+                            <div class="projeto-titulo">FeedBack_Express</div>
+                            <div class="projeto-descricao">
+                               FeedBack_Express é um projeto de feedback desenvolvido com Node.js e Express. Ele permite que os usuários enviem feedbacks sobre produtos ou serviços, armazenando as informações em um banco de dados com json
+                            </div>
+                            <div class="projeto-tecnologias">
+                                <strong>Tecnologias usadas:</strong>
+                                <span>Node.js</span> | <span>JavaScript</span>
+                            </div>
+                        </div>
+                        <a class="projeto-botao" href="https://devlucasdantas.github.io/FeedBack_Express/" target="_blank" rel="noopener noreferrer">Ver Projeto Novo</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato">
+            <div class="contato-conteudo">
+                <div class="contato-titulo-toggle">
+                    <h2>Contato</h2>
+                </div>
+                <div class="contato-icones">
+                    <a href="https://github.com/DevLucasdantas" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://wa.me/5511984698136" target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    <a href="https://www.linkedin.com/in/lucas-barbosa-dantas-918bb1227/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="mailto:lucasbardan@outlook.com" title="E-mail"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <script src="darkmode.js"></script>
+    <script src="scritp.js"></script>
+</body>
